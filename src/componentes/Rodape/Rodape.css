@@ -1,0 +1,15 @@
+.footer_logo{
+    width: 100%;
+    background-color: rgba(38, 38, 38, 1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid var(--Blue, rgba(34, 113, 209, 1));
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+}
+.footer_logo img{
+    width: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
