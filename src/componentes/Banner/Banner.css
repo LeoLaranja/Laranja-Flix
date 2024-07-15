@@ -1,6 +1,6 @@
 .banner_Container {
     position: relative;
-    height: calc(100vh - 123px);
+    height: calc(100vh - 125px);
     border-bottom: 4px solid rgba(107, 209, 255, 1);
     border-right: 4px solid rgba(107, 209, 255, 1);
     border-left: 4px solid rgba(107, 209, 255, 1);
@@ -21,4 +21,9 @@
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade conforme necessário */
     background-blend-mode: darken;
+}
+@media (max-width:1440px){
+    .banner_Container {
+        height: 100%;
+    }
 }

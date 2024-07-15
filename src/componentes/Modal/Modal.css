@@ -98,6 +98,8 @@
 @media(max-width:425px){
     .modal-content {
         width: 300px;
+        align-items: center;
+        display: flex;
     }
     .modal-area {
         padding: 0px;
@@ -105,5 +107,8 @@
     .form-buttons {
         flex-direction: column;
         gap: 10px;
+    }
+    .modal-content h1 {
+        font-size: 26px;
     }
 }
