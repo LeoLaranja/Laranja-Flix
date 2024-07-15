@@ -164,5 +164,8 @@ textarea{
     }
     .title_Geral h2 {
         font-size: 20px;
+    }.area_Title_Container {
+        height: 100vh;
+        justify-content: center;
     }
 }
