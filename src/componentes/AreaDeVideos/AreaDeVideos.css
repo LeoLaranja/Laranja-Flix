@@ -109,7 +109,8 @@
 }
 @media(max-width:425px){
     .area_videos_container h3{
-        width: 320px;
+        width: 260px;
+        font-size: 30px;
     }
     .videos_area {
         width: 430px;
