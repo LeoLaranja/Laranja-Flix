@@ -121,5 +121,16 @@ font-weight: 400;
     }
     .button {
         margin-bottom: 12px;
+        border-radius: 5px;
+    }
+    .button{
+        width: 120px;
+        height: 42px;
+    }
+    .button a{
+        font-size: 18px;
+    }
+    .area_videos_container h3 {
+        margin-top: 40px;
     }
 }
